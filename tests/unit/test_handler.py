@@ -20,7 +20,7 @@ class calculator_Test(unittest.TestCase):
         #x = 10
         #y = 20
         #act
-        result = add(self.x, self.y)
+        result = sum(self.x, self.y)
         result1 = subtract(self.x, self.y)
         result2 = multiply(self.x, self.y)
         result3 = divide(self.x, self.y)
