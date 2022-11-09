@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     x = event["x"]
     y = event["y"]
 
-    print(add(x,y))
+    print(sum(x,y))
     print(subtract(x,y))
     print(multiply(x,y))
     print(divide(x,y))
