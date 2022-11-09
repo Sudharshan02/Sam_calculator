@@ -8,15 +8,15 @@ def lambda_handler(event, context):
     x = event["x"]
     y = event["y"]
 
-    print(sum(x,y))
+    #print(sum(x,y))
     print(subtract(x,y))
     print(multiply(x,y))
     print(divide(x,y))
 
 
 
-def add(x, y):
-    return x + y
+#def sum(x, y):
+    #return x + y
 
 def subtract(x, y):
    return x - y
